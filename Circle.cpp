@@ -77,7 +77,7 @@ istream & operator>>(istream &in, Circle &c)
   in >> tmp_y;
   cout << "r:";
   in >> tmp_r;
-  c = Circle(x, y, r);
+  c = Circle(tmp_x, tmp_y, tmp_r);
   return in;
 }
 
